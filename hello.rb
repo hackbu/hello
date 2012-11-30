@@ -8,3 +8,7 @@ get '/say/*/to/*' do
   # matches /say/hello/to/world
   params[:splat] # => ["hello", "world"]
 end
+
+get '/yo' do
+ "Yo Yo"
+end
