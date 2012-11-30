@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
- "Hello There #{Time.now()}"
+ "GOODBYE There #{Time.now()}"
 end
 
 get '/say/*/to/*' do
